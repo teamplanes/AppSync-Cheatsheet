@@ -16,16 +16,20 @@
 ### Examples for reference
 
 <details>
-  <summary>Get all of type</summary>
+  <summary>List all items</summary>
   <br />
   <p>Request</p>
   <pre>
-    ## TODO
+    {
+      "version" : "2017-02-28",
+      "operation" : "Scan"
+    }
   </pre>
   <p>Response</p>
   <pre>
-    ## TODO
+    $util.toJson($ctx.result.items)
   </pre>
+  <hr />
 </details>
 
 <details>
@@ -61,4 +65,5 @@
   <pre>
     $util.toJson($ctx.result.items)
   </pre>
+  <hr />
 </details>
