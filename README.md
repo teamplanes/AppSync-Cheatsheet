@@ -33,7 +33,7 @@
 </details>
 
 <details>
-  <summary><strong>Getting sub-list or resources for parent type</strong></summary>
+  <summary><strong>Getting sub-list of resources for a parent type</strong></summary>
   <p>Lets say you have schema:</p>
   <pre>
     type List {
