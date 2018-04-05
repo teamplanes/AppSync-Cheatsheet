@@ -16,7 +16,7 @@
 ### Examples for reference
 
 <details>
-  <summary>List all items</summary>
+  <summary><strong>List all items</strong></summary>
   <br />
   <p>Request</p>
   <pre>
@@ -33,7 +33,7 @@
 </details>
 
 <details>
-  <summary>Getting sub-list or resources for parent type</summary>
+  <summary><strong>Getting sub-list or resources for parent type</strong></summary>
   <p>Lets say you have schema:</p>
   <pre>
     type List {
