@@ -13,6 +13,21 @@
 }
 ```
 
+#### `identity`
+
+If you are using Cognito for authentication your `itentity` object will look like:
+
+```
+{
+    "sub" : "uuid", ## <- Main user UUID
+    "issuer" : "string",
+    "username" : "string"
+    "claims" : { ... },
+    "sourceIp" : "x.x.x.x",
+    "defaultAuthStrategy" : "string"
+}
+```
+
 ### Examples for reference
 
 <details>
